@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<title></title>
+
+<style type="text/css">
+.maintitle {
+font-family: Trebuchet MS,Verdana;
+font-size: 20px;
+text-align: left;
+font-weight:bolder;
+color:#000066;
+}
+.body {
+font-family: trebuchet ms,verdana;
+font-size: 13px;
+text-align: justify;
+font-weight: normal;
+font-style: normal;
+}
+.mainlinks {
+	font-family: "trebuchet ms", verdana;
+	font-size: 14px;
+	text-decoration: none;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.links {
+	font-family: "trebuchet ms", verdana;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 12px;
+	background-image: url(images/buttom.png);
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 150px;
+	border-top-color: #000000;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #000000;
+}
+
+.imgpos {
+	position: absolute;
+	clip: rect(250px,auto,auto,0px);
+	height: 49px;
+	width: 170px;
+}
+.linkpos{
+     font-family: Arial, Helvetica, sans-serif; 
+	 size: auto; 
+	 color: #000000; 
+	 font-weight:bolder; 
+	 text-decoration:none
+}
+.Estilo11 {font-size: 10px}
+.Estilo16 {font-family: Trebuchet MS,Verdana; font-size: 14px; text-align: left; font-weight: bolder; color: #000066; }
+.Estilo17 {color: #FFFFFF}
+.Estilo18 {font-family: Trebuchet MS,Verdana; font-size: 13px; text-align: left; font-weight: bolder; color: #000066; }
+.Estilo20 {text-align: left; font-weight: bolder; color: #000066; font-size: 10px;}
+.Estilo21 {font-size: 12px}
+.Estilo24 {font-family: "trebuchet ms", verdana; font-style: italic; font-weight: normal; font-size: 12px; background-image: url(images/buttom.png); background-repeat: no-repeat; height: 50px; width: 150px; border-top-color: #000000; border-right-color: #000000; border-bottom-color: #000000; border-left-color: #000000; color: #004080; }
+</style>
+
+<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAANWV0jp1_dipUj_ZnvCfwQxQ2pCmUxfhZOGNgmtvpDQQrFCcbvRQemmTRBiAruNj9ID3HMcspCQTgww"
+      type="text/javascript"></script>
+<script type="text/javascript">
+    //<![CDATA[
+    function load() {
+      if (GBrowserIsCompatible()) {
+      
+	var map = new GMap2(document.getElementById("map"));
+    map.addControl(new GLargeMapControl());
+    map.addControl(new GMapTypeControl());
+    map.addControl(new GScaleControl()); 
+    map.setCenter(new GLatLng(-16.520400, -68.113259),18);
+    map.setMapType(G_HYBRID_MAP);
+    map.addMapType(G_PHYSICAL_MAP);
+    map.enableScrollWheelZoom();
+
+    GEvent.addListener(map, "moveend", mapHandler);
+
+    var map2 = new GMap2(document.getElementById("map2"));
+    map2.addControl(new GSmallMapControl());
+    map2.setCenter(new GLatLng(-16.520400, -68.113259),1);
+    map2.setMapType(G_NORMAL_MAP);
+      }
+    }
+    //]]>
+    </script>
+
+</head>
+<body style=" background:url(FONDO.png); background-repeat:repeat-y; background-position:inherit; " onLoad="load()" onUnload="GUnload()" >
+<table height="855" border="0" cellpadding="0" cellspacing="0" style="text-align: left; width: 960px; height: 850px; position:absolute; left:5px; top:4px">
+<tbody>
+<tr height="128" style="background-image:url(/u=UNAMID1.png); background-repeat:no-repeat">
+<td height="129" colspan="2" class="maintitle"><img src="TITULO.png" alt="header" width="960"></td>
+</tr>
+<tr height="600" >
+<td width="202" align="left" valign="top" style="width: 202px;">
+  <p class="links"><a href="http://www.un.org/Depts/dpko/dpko/rapid/mpsF.htm" style="position:absolute; left: 78px; top: 286px; width: 74px; height: 24px; color: white;" class="mainlinks" >Mission Planning </a></p>
+  <p class="links"><a href="http://itcnt07/~alsheuski19491/Enschede/client2.html" class="mainlinks" style="position:absolute; left: 73px; top: 498px; width: 86px; height: 40px; ; font-size: 14px; text-decoration: none; font-style: italic; color: white;">Web Feature Service </a></p>
+  <p class="links"><a href="http://glcfapp.umiacs.umd.edu:8080/esdi/index.jsp" style="position:absolute; left: 75px; top: 546px; width: 101px; height: 35px; color: white;" class="mainlinks">Web Coverage Service</a>
+   <p class="links"><a href="https://www.idep.gob.pe/geovisor/VisorDeMapas/" style="position:absolute; left: 77px; top: 715px; width: 90px; height: 26px; color: white;" class="mainlinks">IDEP Web Service</a>
+    <p class="links"><a href="http://sig.sergeomin.gob.bo/sigsgm/" style="position:absolute; left: 73px; top: 763px; width: 109px; height: 26px; color: white;" class="mainlinks">SERGEOMIN WMS </a>
+    <p class="links"><a href="http://www.un.org/depts/dhl/maplib/maplib.htm" style="position:absolute; left: 76px; top: 334px; width: 71px; height: 27px; color:
+ white;" class="mainlinks">Web Map Service</a>
+  <img src="IMG1.PNG" width="145" height="135" style="position:absolute; left: 12px; top: 144px; width: 145px; height: 136px; background-image: url(header2.PNG); layer-background-image: url(header2.PNG); border: 1px none #000000;"></p>
+    <img src="IMG2.PNG" width="145" height="172" style="position:absolute; left: 10px; top: 379px; width: 151px; height: 112px; background-image: url(header2.PNG); layer-background-image: url(header2.PNG); border: 1px none #000000;"></p>
+        <img src="IMG3.png" width="203" height="152" style="position:absolute; left: 10px; top: 592px; width: 151px; height: 112px; background-image: url(header2.PNG); layer-background-image: url(header2.PNG); border: 1px none #000000;"></p>
+  <img src="BOTON2.png" alt="buttom1" width="47" height="47"; style="position:absolute; left: 15px; top:283px;"></p> 
+  <img src="BOTON2.png" alt="buttom1" width="48" height="46"; style="position:absolute; left: 15px; top:331px;">
+  </p> 
+  <img src="BOTON2.png" alt="buttom1" width="46" height="45"; style="position:absolute; left: 15px; top:494px;"></p>
+  <img src="BOTON2.png" alt="buttom1" width="43" height="41"; style="position:absolute; left: 15px; top:540px; width: 47px; height: 46px;"></p> 
+  <img src="IDEP2.png" alt="buttom1" width="43" height="41"; style="position:absolute; left: 15px; top:710px; width: 47px; height: 46px;"></p> 
+  <img src="SERGEOMIN.png" alt="buttom1" width="43" height="41"; style="position:absolute; left: 15px; top:760px; width: 47px; height: 46px;"></p> 
+  <p>&nbsp;</p>
+  <p>&nbsp;</p></td>
+<td align="right" valign="top" width="758">
+  
+  <table width="106%" height="675" border="0" cellpadding="2" cellspacing="0" style="text-align: justify; width: auto; top: auto;" >
+  <tbody>
+     <tr>
+      <td width="750">	    </td>
+      <td width="1" class="body" valign="top">     </td>
+    </tr>
+    <tr>
+      <td height="439" align="right" valign="top"><div id="map" style="width: 750px; left: 5px; height: 435px; top: 1px;"></div> </td>
+      <td class="body" valign="top"><tr>
+      <tr align="left"><td height="49" valign="top">
+        <blockquote>
+          <p align="center" class="body"><em><span class="Estilo11"><strong>Perfil profesional</strong>: El Ingeniero Geografo graduado de la EMI gestiona proyectos geograficos realizando la captura, estructuracion, modelamiento, procesamiento, analisis, interpretacion, difusion y distribucion de informacion geografica; determina el marco de referencia geodesico en la representacion de la forma y dimensiones de la superficie terrestre; identifica y caracteriza la distribucion de los recursos naturales, los fenomenos naturales y antropogenicos para el ordenamiento y desarrollo sustentable del territorio.</span></p>
+          </blockquote>
+        </td>
+        <td height="49" valign="baseline"></td>
+      </tr>
+    <tr>
+      <td height="66" colspan="2"><p class="Estilo18 Estilo21"><span class="Estilo17">E.M.I. </span> La Escuela Militar de Ingenieria, forma y especializa profesionales de excelencia, con valores eticos, morales y civicos; caracterizados por su responsabilidad, liderazgo y disciplina; promoviendo la interaccion social, la investigacion cientifica y tecnologica, con el proposito de coadyuvar al desarrollo integral del pais y contribuir el cumplimiento de la mision institucional del Ejercito. </p>        </td>
+    </tr>
+    <tr>
+      <td height="35" colspan="2"><blockquote>
+        <blockquote>
+          <blockquote>
+            <blockquote>
+              <p class="Estilo20">This site has been prepared by the<a href="http://bb/webapps/portal/frameset.jsp?tab=courses&url=/bin/common/course.pl?course_id=_1953_1"> GFM MSc.Students, Mod 14-15</a>. We suggest that you read the <a href="http://www.ec-gis.org/Workshops/7ec-gis/presentations/ungiwg.pdf"> manual instructions</a>  before any requests. Thanks!              Copyright &copy; 2008-2009, ITC</p>
+            </blockquote>
+          </blockquote>
+          </blockquote>
+        </blockquote>    </td>
+    </tr>
+    <tr>
+      <td height="58" colspan="2">&nbsp;</td>
+    </tr>
+</table></td>
+</tr>
+</tbody>
+</table>
+<br>
+</body></html>
